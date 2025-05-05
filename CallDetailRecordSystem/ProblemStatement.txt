@@ -1,0 +1,46 @@
+Project Title: Call Detail Record (CDR) Analyzer System
+
+Objective:
+To build a Java-based application that reads and analyzes Call Detail Records (CDRs) to provide insights such as call durations, frequently contacted numbers, and potential fraud detection indicators.
+
+Key Features:
+•	CDR Input: Read CDR data from a CSV/text file. Each record includes:
+        o	Caller Number
+        o	Receiver Number
+        o	Call Start Time
+        o	Call End Time
+        o	Call Type (Voice/SMS/Internet)
+•	Call Duration Calculation: Calculate and display call duration for each record.
+•	User-wise Summary: Total number of calls, SMS, and data sessions per user.
+•	Peak Usage Hours: Analyze time-based trends for peak usage.
+•	Frequent Numbers: Identify most frequently called numbers per user.
+•	Fraud Detection Rules (basic):
+        o	Extremely long calls
+        o	Very high volume of calls in short periods
+•	Report Generation: Summarize findings in a structured format.
+
+Output:
+
+📞 All Call Records:
+9876543210 -> 9123456789 | Voice | Duration: 330s
+9876543210 -> 9988776655 | SMS | Duration: 60s
+9123456789 -> 9876543210 | Voice | Duration: 1200s
+9988776655 -> 9876543210 | Voice | Duration: 3600s
+
+📊 User-wise Summary:
+User: 9123456789 -> {Voice=1}
+User: 9988776655 -> {Voice=1}
+User: 9876543210 -> {SMS=1, Voice=1}
+
+⏰ Peak Usage Hours:
+Most active hour: 9:00 - 10:00
+
+👥 Frequent Contacts per User:
+User: 9123456789 → Most Contacted: 9876543210 (1 times)
+User: 9988776655 → Most Contacted: 9876543210 (1 times)
+User: 9876543210 → Most Contacted: 9123456789 (1 times)
+
+🚨 Potential Fraud Detection:
+
+Process finished with exit code 0
+
