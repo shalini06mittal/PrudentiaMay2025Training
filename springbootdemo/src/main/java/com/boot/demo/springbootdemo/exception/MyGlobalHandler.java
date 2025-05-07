@@ -16,13 +16,14 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-//@RestControllerAdvice
+@RestControllerAdvice
 public class MyGlobalHandler {
     MyGlobalHandler(){
         System.out.println("Global handleer");
     }
     @ExceptionHandler(Exception.class)
     public ResponseEntity<Object> handleResourceNotFoundException(Exception ex) {
+        ex.printStackTrace();
         System.out.println("global exception handler");
         Map<String, Object> body = new HashMap<>();
         body.put("message", ex.getMessage());
