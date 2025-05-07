@@ -44,4 +44,8 @@ public class BookServiceRepo {
     public List<Book> getBooksByAuthor(String author) {
         return bookRepo.findByAuthor(author);
     }
+
+    public List<Book> getBooksByPriceGreaterThan(int price) {
+        return bookRepo.getBooksByPrice(price);
+    }
 }

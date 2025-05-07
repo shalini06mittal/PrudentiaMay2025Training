@@ -24,16 +24,22 @@ public class BookRestController {
     Logger logger = LoggerFactory.getLogger(BookRestController.class);
 
     @Autowired
-    private BookService bookService;
+    private BookServiceRepo bookService;
     public BookRestController() {
         System.out.println("Book Rest Controller default constructor");
     }
+
     @GetMapping
-    public List<Book> getBooks(@RequestParam(required = false) String author){
+    public List<Book> getBooks(@RequestParam(required = false) String author,
+                               @RequestParam(required = false) Integer price){
         logger.info("GET All books if author is null or get books by author : "+ author);
-        if(author==null)
-            return bookService.getAllBooks();
-        return bookService.getBooksByAuthor(author);
+        if(author!=null )
+            return bookService.getBooksByAuthor(author);
+        if(price != null)
+            return bookService.getBooksByPriceGreaterThan(price);
+        return bookService.getAllBooks();
+
+
     }
 
     @GetMapping("/{id}")
@@ -100,4 +106,6 @@ public class BookRestController {
         }
         return ResponseEntity.badRequest().body(map);
     }
+
+
 }
