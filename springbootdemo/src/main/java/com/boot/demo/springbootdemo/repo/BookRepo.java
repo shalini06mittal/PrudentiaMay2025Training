@@ -15,4 +15,5 @@ public interface BookRepo extends MongoRepository<Book, Integer> {
         //@Query("{ price : ?0 }")                                      // SQL Equivalent : SELECT * FROM BOOK where price=?
     List<Book> getBooksByPrice(Integer price);
 
+
 }

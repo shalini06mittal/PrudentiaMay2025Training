@@ -21,7 +21,7 @@ public class MyGlobalHandler {
     MyGlobalHandler(){
         System.out.println("Global handleer");
     }
-    @ExceptionHandler(Exception.class)
+   // @ExceptionHandler(Exception.class)
     public ResponseEntity<Object> handleResourceNotFoundException(Exception ex) {
         ex.printStackTrace();
         System.out.println("global exception handler");
@@ -29,7 +29,7 @@ public class MyGlobalHandler {
         body.put("message", ex.getMessage());
         return new ResponseEntity<>(body, HttpStatus.NOT_FOUND);
     }
-    @ExceptionHandler(MethodArgumentNotValidException.class)
+   // @ExceptionHandler(MethodArgumentNotValidException.class)
     public ResponseEntity<Object> handleException(MethodArgumentNotValidException ex){
         Map<String, Object> map = new HashMap<>();
         map.put(AppConstants.STATUS, Status.FAILURE);

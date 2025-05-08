@@ -13,6 +13,7 @@ public class BookServiceRepo {
     private BookRepo bookRepo;
 
     public long getTotalBookCount(){
+
         return bookRepo.count();
     }
     public List<Book> getAllBooks(){
@@ -30,6 +31,7 @@ public class BookServiceRepo {
         return bookRepo.save(book);
     }
     public boolean deleteBook(int id){
+
         if(!bookRepo.existsById(id))
             throw new RuntimeException("cannot delete "+id+" does not exist");
         bookRepo.deleteById(id);
