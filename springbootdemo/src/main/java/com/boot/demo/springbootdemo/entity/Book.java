@@ -29,7 +29,7 @@ public class Book implements Serializable {
      */
     @Id
     @Field("_id")
-
+    @NotNull(message = "Id must not be empty")
     private int bookid;
     @NotNull(message = "Title must not be empty")
     private String title;
