@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Kafka/FirstKafkaDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Kafka/FirstKafkaDemo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Kafka/SpringBootKafkaDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Kafka/kafkaConsumerDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Kafka/kafkaConsumerDemo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Microservices/ConfigServerClient/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Microservices/ConfigServerDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Microservices/EurekaServerDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Microservices/GatewayServerDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Microservices/MSAccountDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Microservices/MSCardsDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Microservices/MSLoansDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Microservices/ResilienceSpringBootWebDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Microservices/spring-boot-resilience4j-retry-main/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PaymentProject/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PaymentProject/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring/SpringSecurityDemoLatest/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring/springbootdemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringSecurityDemoLatest/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springbootdemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcoredemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcoredemo/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

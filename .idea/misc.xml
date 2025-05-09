@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/springcoredemo/pom.xml" />
+        <option value="$PROJECT_DIR$/PaymentProject/pom.xml" />
+        <option value="$PROJECT_DIR$/springbootdemo/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringSecurityDemoLatest/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring/springbootdemo/pom.xml" />
+        <option value="$PROJECT_DIR$/Kafka/FirstKafkaDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/Kafka/kafkaConsumerDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/Kafka/SpringBootKafkaDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring/SpringSecurityDemoLatest/pom.xml" />
+        <option value="$PROJECT_DIR$/Microservices/MSAccountDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/Microservices/ConfigServerClient/pom.xml" />
+        <option value="$PROJECT_DIR$/Microservices/ConfigServerDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/Microservices/EurekaServerDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/Microservices/GatewayServerDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/Microservices/MSCardsDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/Microservices/MSLoansDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/Microservices/ResilienceSpringBootWebDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/Microservices/spring-boot-resilience4j-retry-main/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/Microservices/ConfigServerClient/pom.xml" />
+        <option value="$PROJECT_DIR$/Microservices/ConfigServerDemo/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
