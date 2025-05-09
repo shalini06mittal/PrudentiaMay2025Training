@@ -17,6 +17,7 @@ import java.util.stream.Collectors;
 @RequiredArgsConstructor
 
 public class GenerateToken {
+
     private final Environment env;
 
     public  String createToken(Authentication authentication) {

@@ -54,7 +54,6 @@ public class JWTTokenValidatorFilter extends OncePerRequestFilter {
             }
         }
         filterChain.doFilter(request, response);
-
     }
 
     /**
