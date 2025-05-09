@@ -14,6 +14,6 @@ public class SpringBootKafkaDemoApplication {
 
 	@Bean
 	public NewTopic newTopic(){
-		return new NewTopic("boot-topic", 2, (short)2);
+		return new NewTopic("boot-kafka", 2, (short)2);
 	}
 }
